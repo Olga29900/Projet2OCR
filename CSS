@@ -21,15 +21,10 @@ body
 
 header h1
 {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: normal;
 }
 
-header h2
-{
-	font-size: 0.9em;
-	font-weight: normal;
-}
 
 
 /* couleur des stars !!!*/
@@ -54,20 +49,23 @@ nav ul
 
 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: space-around;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 60%;
+    width: 75%;
     font-size: 0.8em;
 	font-weight: normal;
 	text-align: justify;
 	margin: 15px;
 	padding: 10px;
+    padding-right: 10px;
 }
 
 .card img
 {
-    width: 200px;
+    width: 190px;
     height: 80px;
     display: flex;
     border-top-left-radius: 10px;
@@ -77,39 +75,56 @@ nav ul
 
 .card:nth-child(1)
 {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
+    margin-right: 5px;
     padding: 5px;
-    
+    order: 1;
 }
+
 .card:nth-child(2)
+
 {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
-	margin: 10px;
-	padding: 5px;
+    margin: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    order: 2;
 }
+
 .card:nth-child(3)
+
 {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
+    margin-right: 5px;
     padding: 5px;
+    order: 3;
 }
+
 .card:nth-child(4)
+
 {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
+    margin-right: 5px;
     padding: 5px;
+    order: 4;
 }
+
 .card:nth-child(5)
+
 {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
+    margin-right: 5px;
     padding: 5px;
+    order: 5;
 }
 
 .card:nth-child(6)
@@ -117,22 +132,25 @@ nav ul
 	background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
+    margin-right: 5px;
     padding: 5px;
+    order: 6;
+}
 
-    }
 
 /* Bloc aside*/
 
 #aside
 {
 	display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 10px;
     width: 45%;
     font-size: 0.8em;
 	font-weight: normal;
 	text-align: justify;
+    float: right;
 	margin: 15px;
 	padding: 10px;
 }
@@ -144,7 +162,6 @@ nav ul
     display: flex;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    text-align: right;
 }
 
 .card2:nth-child(1)
@@ -152,20 +169,44 @@ nav ul
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    text-align: right;
     
 }
+
 .card2:nth-child(2)
+
 {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    text-align: right;
+    
 }
+
 .card2:nth-child(3)
 {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    text-align: right;
+    
+}
+
+/* flexbox */
+
+#section
+{
+    display: flex;
 }
