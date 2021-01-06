@@ -1,35 +1,3 @@
-header
-{
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-}
-
-header h1
-{
-	font-size: 1.5em;
-	font-weight: normal;
-}
-
-header h2
-{
-	font-size: 0.9em;
-	font-weight: normal;
-}
-
-#titreprincipal
-{
-	display: flex;
-	flex-direction: column;
-}
-
-
-#bloc_page
-{
-	width: 900px;
-	margin: auto;
-}
-
 @font-face {
     font-family: 'Raleway';
     src: url('Font/Raleway-VariableFont_wght.ttf') format('truetype');
@@ -43,83 +11,161 @@ body
 	font-family: 'Raleway';
 }
 
+#bloc_page
+{
+	width: 1200px;
+	margin: left;
+}
+
+/* Header */
+
+header h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+header h2
+{
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+
 /* couleur des stars !!!*/
 .checked {
   color: blue;
-}
+  }
 
-/*img
-{
-	width: 100px;
-	height: 100px;
-}*/
 
-img
-{
-	width: 100px;
-	height: 50px;
-}
-
-/* Navigation */
+/* Corps */
 
 
 nav ul
 {
-    list-style-type: none;
+    list-style-type: none;   
+}
+
+
+/* Bloc article*/
+
+
+#article
+
+{
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 0.8em;
+	font-weight: normal;
+	text-align: justify;
+	margin: 15px;
+	padding: 10px;
 }
 
-nav li
+.card img
 {
-    margin-right: 20px;
-    justify-content: flex-end;
- }
+    width: 200px;
+    height: 80px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
-nav a
+
+.card:nth-child(1)
 {
-    font-size: 0.9em;
-    color: rgb(22,91,194);
-    padding-bottom: 3px;
-    text-decoration: none;
+	background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    
 }
-
-nav a:hover
+.card:nth-child(2)
 {
-	color: rgb(22,91,194);
-	border-bottom: 3px
+	background-color: #FFFFFF;
+    border-radius: 10px;
+	margin: 10px;
+	padding: 5px;
 }
-
-section
+.card:nth-child(3)
 {
- border: groove;
+	background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.card:nth-child(4)
+{
+	background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.card:nth-child(5)
+{
+	background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
 }
 
-*{margin:0;box-sizing:border-box;}
-html,body{height:100%;font:14px/1.4 sans-serif;}
-input, textarea{font:14px/1.4 sans-serif;}
+.card:nth-child(6)
+{
+	background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
 
-.input-group{
-  display: table;
-  border-collapse: collapse;
-  width:100%;
+    }
+
+/* Bloc aside*/
+
+#aside
+{
+	display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 45%;
+    font-size: 0.8em;
+	font-weight: normal;
+	text-align: justify;
+	margin: 15px;
+	padding: 10px;
 }
-.input-group > div{
-  display: table-cell;
-  border: 1px solid #ddd;
-  vertical-align: middle;  /* needed for Safari */
+
+.card2 img
+{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: right;
 }
-.input-group-icon{
-  background:#eee;
-  color: #777;
-  padding: 0 12px
+
+.card2:nth-child(1)
+{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    
 }
-.input-group-area{
-  width:100%;
+.card2:nth-child(2)
+{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
 }
-.input-group input{
-  border: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
+.card2:nth-child(3)
+{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
 }
