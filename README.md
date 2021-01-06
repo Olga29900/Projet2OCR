@@ -29,14 +29,13 @@
 
   <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
     
-   
-    <h2><strong>Hébergements à Marseille</strong></h2></br>
-     
     <section>
-    	<article>
+
+    	<div id="section">
+
+    <article>
 
     <div id="article">
-    	
          <div class="card">
           <img src="images/cannebiere.jpg" alt="cannebiere">
       <div class="card-body">
@@ -93,7 +92,7 @@
 
     <div class="card">
     <img src="images/aubergelepanier.jpg" alt="panier">
-<div class="card-body">
+	<div class="card-body">
         <p class="card-text"><strong>Auberge Le Panier</strong> </br>
         Nuit à partir de <strong>23€</strong></p>
         <p><span class="fa fa-star checked"></span>
@@ -123,24 +122,22 @@
 
 </article>
 
-<h2><strong>Les plus populaires</strong></h2></br>
-
-<aside>
-
-<div id="aside">
+        	<aside>
+    	<div id="aside">
     	
          <div class="card2">
-          <img src="images/soleildumatin.jpg" alt="soleildumatin">
+         <img src="images/soleildumatin.jpg" alt="soleildumatin">
       <div class="card2-body">
-        <p class="card2-text"><strong>Hôtel Le soleil du matin</strong> </br>
+      	<p class="card2-text"><strong>Hôtel Le soleil du matin</strong> </br>
         Nuit à partir de <strong>128€</strong></p>
         <p><span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span></p>
+		</div>
       </div>
-    </div>
+   
 
 
     <div class="card2">
@@ -168,8 +165,15 @@
 <span class="fa fa-star"></span></p>
       </div>
     </div>
-
 </div>
-
 </aside>
+
+</section>
+</div>
+</body>
+
+
+
+
+
 
