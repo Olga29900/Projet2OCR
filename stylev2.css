@@ -12,7 +12,6 @@ body
 }
 
 
-
 /* Header */
 
 h1
@@ -48,13 +47,9 @@ nav a:hover
     border-bottom: 3px
 }
 
-footer
-{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-}
 
-/* couleur des stars des icônes et taille !*/
+
+/* couleur des stars des icônes et mise en forme !*/
 
 .fa-star
 {
@@ -223,6 +218,9 @@ footer
     border-bottom-left-radius: 10px;
 }
 
+
+/* texte aside*/
+
 .flotte
 {
     float: left;
@@ -288,10 +286,9 @@ footer
 #activites
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
     background-color: #FFFFFF;
     margin-top: 30px;
@@ -310,6 +307,11 @@ footer
     border-radius: 10px;
 }
 
+.card3:nth-child(1)
+{
+    position: absolute;
+}
+
 .card3aside img
 {
     border-top-left-radius: 10px;
@@ -324,6 +326,46 @@ footer
     border-radius: 10px;
 }
 
+.imageflottantegauche
+{
+    float: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imageflottantedroite
+{
+    float: right;
+}
+
+.card4 img
+{
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    white-space: wrap;
+}
+
+.card4
+{
+    border-radius: 10px;
+}
+
+.card4aside img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    white-space: wrap;
+}
+
+.card4aside
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
 
 /* flexbox */
 
@@ -331,4 +373,13 @@ footer
 {
     display: flex;
     
+}
+
+/* Footer*/
+
+
+footer
+{
+    background-color: #F2F2F2;
+    border-radius: 10px;
 }
