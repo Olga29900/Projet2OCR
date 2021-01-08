@@ -11,17 +11,13 @@ body
 	font-family: 'Raleway';
 }
 
-#bloc_page
-{
-	width: 900px;
-	margin: auto;
-}
+
 
 /* Header */
 
 h1
 {
-	font-size: 1em;
+	font-size: 1.4em;
 	font-weight: normal;
 }
 
@@ -52,8 +48,13 @@ nav a:hover
     border-bottom: 3px
 }
 
+footer
+{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
 
-/* couleur des stars !*/
+/* couleur des stars des icônes et taille !*/
 
 .fa-star
 {
@@ -64,8 +65,25 @@ nav a:hover
   color: #0065FC;
   }
 
+.fa-money-bill-wave
+{
+    color: #0065FC;
+}
 
+.fa-child
+{
+    color: #0065FC;
+}
 
+.fa-heart
+{
+    color: #0065FC;
+}
+
+.fa-dog
+{
+    color: #0065FC;
+}
 
 
 /* Bloc article*/
@@ -274,7 +292,7 @@ nav a:hover
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     background-color: #FFFFFF;
     margin-top: 30px;
 }
@@ -282,8 +300,6 @@ nav a:hover
 .card3 img
 {
     background-color: #FFFFFF;
-    width: 190px;
-    height: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     white-space: wrap;
@@ -296,17 +312,15 @@ nav a:hover
 
 .card3aside img
 {
-    width: 120px;
-    height: 75px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     white-space: wrap;
 }
 
-
 .card3aside
 {
-    float: left;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
 }
 
