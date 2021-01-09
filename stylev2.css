@@ -316,26 +316,11 @@ nav a:hover
 .card3 img
 {
     background-color: #FFFFFF;
+    margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     white-space: wrap;
 }
-
-.card3
-{
-    border-radius: 10px;
-}
-
-
-.column
-{
-    align-items: left;
-    flex-wrap: wrap;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-
 
 .card4
 {
