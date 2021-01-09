@@ -299,9 +299,25 @@ nav a:hover
 {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    float: left;
 }
 
 #left
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#right2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+#left2
 {
     display: flex;
     flex-direction: column;
@@ -330,6 +346,7 @@ nav a:hover
 .card4 img
 {
     background-color: #FFFFFF;
+    margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     white-space: wrap;
