@@ -47,14 +47,6 @@ nav a
 
 }
 
-nav a:hover
-{
-
-    color: rgb(22,91,194);
-    border-bottom: 3px;
-}
-
-
 
 /* couleur des stars des icônes et mise en forme !*/
 
@@ -402,6 +394,7 @@ footer
    list-style-type: none;
    display: flex;
    flex-direction: column;
+   margin-left: 40px;
 }
 
 #assistance ul
@@ -409,6 +402,7 @@ footer
    list-style-type: none;
    display: flex;
    flex-direction: column;
+   margin-left: 40px;
 }
 
 
@@ -417,6 +411,7 @@ footer
     
    font-size: 0.9em;
    text-decoration: none; 
+   color: #000000;
 }
 
 
@@ -424,10 +419,12 @@ footer
 {
     font-size: 0.9em;
     text-decoration: none;
+    color: #000000;
 }
 
 .liste_assistance a
 {
     font-size: 0.9em;
     text-decoration: none;
+    color: #000000;
 }
