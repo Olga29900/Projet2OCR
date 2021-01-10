@@ -27,26 +27,31 @@ nav ul
     list-style-type: none;
     display: flex;
     justify-content: center;
+
 }
 
 nav li
 {
     margin-right: 20px;
     justify-content: center;
- }
 
+}
+    
 nav a
 {
+
     font-size: 0.9em;
     color: #0065FC;
     padding-bottom: 3px;
     text-decoration: none;
+
 }
 
 nav a:hover
 {
+
     color: rgb(22,91,194);
-    border-bottom: 3px
+    border-bottom: 3px;
 }
 
 
@@ -105,7 +110,6 @@ nav a:hover
     justify-content: flex-end;
 
 }
-
 
 #article
 
@@ -377,4 +381,28 @@ footer
 {
     background-color: #F2F2F2;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+#apropos ul
+{
+    list-style-type: none;
+   display: flex;
+   flex-direction: column;
+}
+
+#nos ul
+{
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+}
+
+#assistance ul
+{
+    list-style-type: none;
+   display: flex;
+   flex-direction: column;
 }
