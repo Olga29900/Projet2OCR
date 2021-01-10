@@ -116,7 +116,7 @@ nav a
 	font-weight: normal;
 	text-align: justify;
     padding-left: 5px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 25px;
 }
 
@@ -221,7 +221,7 @@ nav a
     font-size: 0.8em;
 	font-weight: normal;
 	text-align: justify;
-    padding-top: 10px;
+    padding-top: 30px;
 
    
 }
@@ -249,6 +249,7 @@ nav a
     background-color: #F2F2F2;
     position: absolute;
     margin-left: 10px;
+    margin-top: -30px;
 }
 
 .card2:nth-child(2)
@@ -309,7 +310,7 @@ nav a
     border-radius: 10px;
     justify-content: flex-start;
     background-color: #FFFFFF;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #left
@@ -353,6 +354,17 @@ nav a
     white-space: wrap;
 }
 
+.card3-text
+{
+    font-size: 0.9em;
+    margin: 10px;
+}
+
+.right-text
+{
+    font-size: 0.9em;
+}
+
 .card4
 {
     border-radius: 10px;
@@ -367,6 +379,11 @@ nav a
     white-space: wrap;
 }
 
+.card4-text
+{
+    font-size: 0.9em;
+    margin: 10px;
+}
 
 /* Footer*/
 
