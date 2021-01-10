@@ -84,8 +84,14 @@ nav a:hover
 #logements
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+#logements2
+{
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 /* Bloc article*/
@@ -98,7 +104,6 @@ nav a:hover
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 65%;
     background-color: #F2F2F2;
     border-radius: 10px;
     font-size: 0.8em;
@@ -361,7 +366,7 @@ nav a:hover
 #section
 {
     display: flex;
-    width: 100%;
+    width: 75%;
     
 }
 
