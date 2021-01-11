@@ -63,7 +63,10 @@ nav a
 {
 
     color: #0065FC;
+    border-radius: 10px;
+    border: solid;
 }
+
 
 .fa-child
 {
