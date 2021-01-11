@@ -405,7 +405,18 @@ nav a
     white-space: wrap;
 }
 
-.card4right
+.card4right1
+{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 0px #F2F2F2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.card4right2
 {
     border-radius: 10px;
     background-color: #FFFFFF;
