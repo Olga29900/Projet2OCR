@@ -306,7 +306,7 @@ nav a
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 75%;
+    width: 80%;
     border-radius: 10px;
     justify-content: flex-start;
     background-color: #FFFFFF;
@@ -393,6 +393,16 @@ nav a
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     white-space: wrap;
+}
+
+.card4right
+{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 0px #F2F2F2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 10px;
 }
 
 .card4-text
