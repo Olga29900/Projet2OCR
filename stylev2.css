@@ -94,16 +94,16 @@ nav a
 
 /* Bloc article*/
 
-#logements
+#hebergements
 {
     display: flex;
     justify-content: flex-start;
 }
 
-#logements2
+#populaires
 {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
 
 }
 
