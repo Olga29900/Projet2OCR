@@ -70,6 +70,7 @@ nav a
 .fa-circle
 {
     color: #DEEBFF;
+
 }
 
 .fa-money-bill-wave
@@ -95,6 +96,26 @@ nav a
     color: #0065FC;
 }
 
+.fa-info-circle
+{
+    color: #FFFFFF;
+}
+
+.overlay { 
+                position: relative; 
+                
+            } 
+            .circle { 
+               position: absolute;
+              font-size: 50px;
+        
+            } 
+            .money { 
+                position: absolute;
+
+            } 
+
+}
 /* flexbox */
 
 #section
