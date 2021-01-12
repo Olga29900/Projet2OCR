@@ -59,12 +59,17 @@ nav a
   color: #0065FC;
   }
 
+.icone
+{
+    display: flex;
+    flex-direction: row;
+}
+
 .fa-money-bill-wave
 {
 
     color: #0065FC;
-    border-radius: 10px;
-    border: solid;
+
 }
 
 
