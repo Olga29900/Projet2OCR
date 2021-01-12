@@ -112,6 +112,7 @@ nav a
             } 
             .money { 
                 position: absolute;
+                top: left;
 
             } 
 
