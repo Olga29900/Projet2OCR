@@ -47,6 +47,15 @@ nav a
 
 }
 
+/* Recherche*/
+
+#recherche
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
 
 /* couleur des stars des icônes et mise en forme !*/
 
