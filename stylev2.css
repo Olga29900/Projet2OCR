@@ -57,6 +57,18 @@ nav a
     width: 50%;
 }
 
+.recherche_touche
+{
+	background-color: #0065FC;
+	color: #FFFFFF;
+	border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 /* couleur des stars des icônes et mise en forme !*/
 
 .fa-star
@@ -127,8 +139,11 @@ nav a
 	border-radius: 10px;
 	border-color: #F2F2F2;
 	padding-top: 10px;
-	padding-left: 40px;
-	vertical-align: center;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 6px;
+    margin-left: 20px;
 
 }
 
