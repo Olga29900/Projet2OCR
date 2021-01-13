@@ -70,6 +70,7 @@ nav a
 .fa-circle
 {
     color: #DEEBFF;
+    font-size: 50px
 
 }
 
@@ -102,23 +103,52 @@ nav a
 }
 
 .overlay { 
-                position: relative; 
+                display: flex;
+                flex-direction: row;
                 
             } 
-            .circle { 
+
+            .circle:nth-child(1)
+             { 
                position: absolute;
-              font-size: 50px;
         
             } 
+
             .money { 
                 position: relative;
-                top: 20px;
-                right: 5px;
-        
-
             } 
 
-}
+            .circle:nth-child(2)
+             { 
+               position: absolute;
+        
+            } 
+
+            .child { 
+                position: relative;
+            } 
+
+            .circle:nth-child(3)
+             { 
+               position: absolute;
+        
+            } 
+
+            .heart { 
+                position: relative;
+            } 
+
+            .circle:nth-child(4)
+             { 
+               position: absolute;
+        
+            } 
+
+            .dog { 
+                position: relative;
+            } 
+
+
 /* flexbox */
 
 #section
