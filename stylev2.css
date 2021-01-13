@@ -139,7 +139,7 @@ nav a
     color: #FFFFFF;
 }
 
-
+/* Bloc section hébergements*/
 
 
 #hebergements
@@ -147,20 +147,10 @@ nav a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #F2F2F2;
+    float: left;
     width: 60%;
 }
-
-#populaires
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 35%;
-}
-
-
-
-
 
 .card img
 {
@@ -171,9 +161,17 @@ nav a
     border-top-right-radius: 10px;
 }
 
+/* Bloc section populaires */
 
-/* Bloc aside*/
 
+#populaires
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    float: right;
+    width: 30%;
+}
 
 
 .card2 img
