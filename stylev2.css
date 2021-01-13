@@ -112,7 +112,8 @@ nav a
 
 .icone-text
 {
-	justify-content: center;
+	float: right;
+	padding-left: 40px;
 }
 
 
@@ -122,12 +123,6 @@ nav a
     color: #FFFFFF;
 }
 
-
-
-.flotte
-{
-	float: left;
-}
 
 
 /* flexbox */
