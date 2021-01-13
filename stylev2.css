@@ -111,8 +111,10 @@ nav a
         
             } 
             .money { 
-                position: absolute;
-                top: left;
+                position: relative;
+                top: 20px;
+                right: 5px;
+        
 
             } 
 
