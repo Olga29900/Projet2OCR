@@ -132,38 +132,25 @@ nav a
 
 
 
-/* flexbox */
-
-#section
-{
-    display: flex;
-    width: 75%;
-    
-}
-
-/* Bloc article*/
 
 #hebergements
 {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
 }
 
 #populaires
 {
     display: flex;
     flex-direction: column;
-
+    justify-content: flex-end;
+    width: 35%;
 }
 
-article
 
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-	
-}
+
 
 
 .card img
@@ -178,14 +165,7 @@ article
 
 /* Bloc aside*/
 
-aside
-{
-	display: flex;
-    flex-direction: column;
-   
 
-   
-}
 
 .card2 img
 {
