@@ -104,51 +104,9 @@ nav a
 
 .overlay { 
                 display: flex;
-                flex-direction: row;
-                
-            } 
+                flex-direction: row;    
 
-            .circle:nth-child(1)
-             { 
-               position: absolute;
-        
-            } 
-
-            .money { 
-                position: relative;
-            } 
-
-            .circle:nth-child(2)
-             { 
-               position: absolute;
-        
-            } 
-
-            .child { 
-                position: relative;
-            } 
-
-            .circle:nth-child(3)
-             { 
-               position: absolute;
-        
-            } 
-
-            .heart { 
-                position: relative;
-            } 
-
-            .circle:nth-child(4)
-             { 
-               position: absolute;
-        
-            } 
-
-            .dog { 
-                position: relative;
-            } 
-
-
+}
 /* flexbox */
 
 #section
@@ -173,21 +131,13 @@ nav a
 
 }
 
-#article
+article
 
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    font-size: 0.8em;
-	font-weight: normal;
-	text-align: justify;
-    padding-left: 5px;
-    padding-top: 40px;
-    padding-bottom: 25px;
+	
 }
 
 
@@ -200,98 +150,14 @@ nav a
     border-top-right-radius: 10px;
 }
 
-.card:nth-child(1)
-{
-    background-color: #F2F2F2;
-    position: absolute;
-    margin-top: -30px;
-    margin-left: 10px;
-}
-
-.card:nth-child(2)
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 2;
-}
-
-.card:nth-child(3)
-
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 3;
-}
-
-.card:nth-child(4)
-
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 4;
-}
-
-.card:nth-child(5)
-
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 5;
-}
-
-.card:nth-child(6)
-
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 6;
-}
-
-.card:nth-child(7)
-{
-	background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 5px;
-    padding: 5px;
-    order: 7;
-}
-
-.card:nth-child(8)
-{
-    background-color: #F2F2F2;
-    align-self: flex-end;
-    margin-left: 10px;
-    order: 8;
-}
 
 /* Bloc aside*/
 
-#aside
+aside
 {
 	display: flex;
     flex-direction: column;
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    font-size: 0.8em;
-	font-weight: normal;
-	text-align: justify;
-    padding-top: 30px;
+   
 
    
 }
@@ -313,59 +179,6 @@ nav a
     float: left;
 }
 
-.card2:nth-child(1)
-
-{
-    background-color: #F2F2F2;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: -30px;
-}
-
-.card2:nth-child(2)
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 120px;
-    padding-bottom: 5px;
-    text-align: justify;
-    white-space: nowrap;
-    
-}
-
-
-.card2:nth-child(3)
-
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 120px;
-    padding-bottom: 5px;
-    text-align: justify;
-    white-space: nowrap;
-    
-}
-
-
-.card2:nth-child(4)
-{
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 10px;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 120px;
-    padding-bottom: 5px;
-    text-align: justify;
-    white-space: nowrap;
-    
-}
 
 
 /* Bloc section activites*/
