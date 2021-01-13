@@ -59,18 +59,19 @@ nav a
   color: #0065FC;
   }
 
-.icone
+#icones
 {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
 
 }
 
 .fa-circle
 {
     color: #DEEBFF;
-    font-size: 50px
+    font-size: 50px;
+    position: absolute;
 
 }
 
@@ -78,6 +79,9 @@ nav a
 {
 
     color: #0065FC;
+    position: relative;
+    top: 15px;
+    left:15px;
 
 }
 
@@ -85,28 +89,47 @@ nav a
 .fa-child
 {
     color: #0065FC;
+    position: relative;
+    top: 15px;
+    left:20px;
 }
 
 .fa-heart
 {
     color: #0065FC;
+    position: relative;
+    top: 15px;
+    left:17px;
 }
 
 .fa-dog
 {
     color: #0065FC;
+    position: relative;
+    top: 15px;
+    left:17px;
 }
+
+.icone-text
+{
+	justify-content: center;
+}
+
+
 
 .fa-info-circle
 {
     color: #FFFFFF;
 }
 
-.overlay { 
-                display: flex;
-                flex-direction: row;    
 
+
+.flotte
+{
+	float: left;
 }
+
+
 /* flexbox */
 
 #section
@@ -174,7 +197,7 @@ aside
 
 /* texte aside*/
 
-.flotte
+.flotte2
 {
     float: left;
 }
