@@ -218,7 +218,7 @@ nav a
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 50%;
+    width: 55%;
     float: left;
 }
 
@@ -241,8 +241,9 @@ nav a
 {
 	background-color: #FFFFFF;
 	border-radius: 10px;
-	padding-top: 50px;
-	margin-top: 40px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 30px;
 }
 
 
