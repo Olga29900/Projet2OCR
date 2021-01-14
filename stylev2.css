@@ -127,6 +127,7 @@ nav a
 	position: relative;
 	top: 16px;
 	right: 10px;
+	color: #0065FC;
 }
 
 /* couleur des stars des icônes et mise en forme !*/
@@ -144,7 +145,7 @@ nav a
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 60%;
 
 }
@@ -201,6 +202,7 @@ nav a
 	border-color: #F2F2F2;
     padding-bottom: 9px;
   	padding-right: 30px;
+  	padding-left: 25px;
   	margin-left: 10px;
 
 }
@@ -215,8 +217,9 @@ nav a
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #F2F2F2;
+    border-radius: 10px;
     float: left;
-    width: 60%;
+    width: 50%;
 }
 
 .card img
@@ -228,6 +231,22 @@ nav a
     border-top-right-radius: 10px;
 }
 
+.cardheader
+{
+	position: absolute;
+
+}
+
+.card
+{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding-top: 50px;
+	margin-top: 40px;
+}
+
+
+
 /* Bloc section populaires */
 
 
@@ -236,8 +255,9 @@ nav a
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+    border-radius: 10px;
     float: right;
-    width: 30%;
+    width: 20%;
 }
 
 
