@@ -54,7 +54,7 @@ nav a
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
 }
 
 .recherche_touche
@@ -67,6 +67,21 @@ nav a
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.fa-map-marker-alt
+{
+	background-color: #F2F2F2;
+	border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 15px;
+    left:15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 15px;
+    
 }
 
 /* couleur des stars des icônes et mise en forme !*/
@@ -139,15 +154,11 @@ nav a
 	border-radius: 10px;
 	border-color: #F2F2F2;
 	padding-top: 10px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    margin-top: 6px;
-    margin-left: 20px;
 
 }
-
-
 
 .fa-info-circle
 {
