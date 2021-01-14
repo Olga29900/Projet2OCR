@@ -300,7 +300,6 @@ aside
 }
 
 
-
 /* Bloc section activites*/
 
 #activites
@@ -308,11 +307,16 @@ aside
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     justify-content: flex-start;
     background-color: #FFFFFF;
     margin-top: 10px;
+}
+
+.activites_header
+{
+	position: absolute;
 }
 
 #left
