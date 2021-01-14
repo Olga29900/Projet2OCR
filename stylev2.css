@@ -309,7 +309,6 @@ aside
     align-content: space-around;
     width: 100%;
     border-radius: 10px;
-    justify-content: flex-start;
     background-color: #FFFFFF;
     margin-top: 10px;
 }
@@ -353,15 +352,7 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10px;
-}
-
-.card3 img
-{
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    white-space: wrap;
+    margin: 30px;
 }
 
 .card3right1
@@ -371,7 +362,7 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .card3right2
@@ -381,34 +372,38 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10px;
+    margin: 30px;
+    margin-top: 10px;
 }
 
 .card3-text
 {
     font-size: 0.9em;
-    margin: 10px;
+    margin: 15px;
 }
 
-.right-text
+
+.right1-text
 {
     font-size: 0.9em;
+    margin: 15px;
 }
+
+.right2-text
+{
+	font-size: 0.9em;
+    margin: 15px;
+}
+
 
 .card4
 {
     border-radius: 10px;
-    box-shadow: 0px 6px 0px #F2F2F2;
-    margin: 10px;
-}
-
-.card4 img
-{
     background-color: #FFFFFF;
-    margin: 10px;
+    box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    white-space: wrap;
+    margin: 30px;
 }
 
 .card4right1
@@ -418,8 +413,7 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 30px;
 }
 
 .card4right2
@@ -429,8 +423,8 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 30px;
+    margin-top: 10px;
 }
 
 .card4-text
@@ -438,6 +432,20 @@ aside
     font-size: 0.9em;
     margin: 10px;
 }
+
+.card4right1-text
+{
+	font-size: 0.9em;
+    margin: 10px;
+}
+
+.card4right2-text
+{
+	font-size: 0.9em;
+    margin: 10px;
+}
+
+
 
 /* Footer*/
 
