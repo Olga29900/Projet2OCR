@@ -53,8 +53,37 @@ nav a
 {
 	display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: nowrap;
     width: 30%;
+}
+
+.fa-map-marker-alt
+{
+	background-color: #F2F2F2;
+	border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top: 15px;
+    left:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.recherche_ex
+{
+ 	background-color: #FFFFFF;
+ 	border-width: 0px;
+ 	border-top: solid #F2F2F2;
+    border-bottom: solid #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 15px;
+
 }
 
 .recherche_touche
@@ -67,6 +96,7 @@ nav a
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 15px;
 }
 
 .fa-map-marker-alt
@@ -75,8 +105,8 @@ nav a
 	border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;
-    top: 15px;
-    left:15px;
+    top: 0px;
+    left: 0px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
