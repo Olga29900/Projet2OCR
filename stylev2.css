@@ -218,8 +218,8 @@ nav a
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 10px;
-    float: left;
     width: 50%;
+    float: left;
 }
 
 .card img
@@ -249,6 +249,11 @@ nav a
 
 /* Bloc section populaires */
 
+aside
+{
+	float: right;
+	width: 40%;
+}
 
 #populaires
 {
@@ -256,8 +261,6 @@ nav a
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 10px;
-    float: right;
-    width: 20%;
 }
 
 
