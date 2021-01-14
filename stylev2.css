@@ -54,6 +54,7 @@ nav a
 	display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin: left;
     width: 30%;
 }
 
@@ -114,6 +115,20 @@ nav a
     
 }
 
+#icone_info
+{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fa-info-circle
+{
+	position: relative;
+	top: 16px;
+	right: 10px;
+}
+
 /* couleur des stars des icônes et mise en forme !*/
 
 .fa-star
@@ -130,7 +145,7 @@ nav a
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 
 }
 
@@ -180,13 +195,13 @@ nav a
 .icone-text
 {
 	float: right;
+	text-align: center;
 	border: solid;
 	border-radius: 10px;
 	border-color: #F2F2F2;
-	padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-bottom: 9px;
+  	padding-right: 30px;
+  	margin-left: 10px;
 
 }
 
