@@ -1,0 +1,25 @@
+/* Styles spécifiques pour les écrans de taille moyenne type tablette*/
+
+@media screen and (max-width: 1280px)
+
+{
+
+
+
+#bloc_page
+{
+    width: auto;
+}
+
+aside
+{
+    float: left;
+}
+
+#populaires
+{
+    flex-direction: row;
+}
+
+
+}
