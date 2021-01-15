@@ -549,10 +549,14 @@ aside
     flex-direction: row;
 }
 
+<<<<<<< Updated upstream
 article
+=======
+aside
+>>>>>>> Stashed changes
 {
-    width: auto;
-    margin-bottom: 15px;
+    flex-direction: row;
+    float: right;
 }
 
 .card img, .card2 img
