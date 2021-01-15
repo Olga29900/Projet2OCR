@@ -506,4 +506,37 @@ footer
     font-size: 0.9em;
     text-decoration: none;
     color: #000000;
+}}
+
+/* propriétés CSS*/
+
+@media screen and (max-width: 1024px)
+
+{
+
+
+#bloc_page
+{
+    width: auto;
 }
+
+nav
+
+{
+    width: auto;
+    text-align: left;
+}
+
+nav ul
+{
+    flex-direction: column;
+}
+
+nav li
+{
+    padding-left: 4px;
+}
+
+nav a
+{
+    font-size: 1.1em;
