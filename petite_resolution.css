@@ -9,7 +9,14 @@
 #bloc_page
 {
     width: auto;
+    margin: auto;
 }
+
+section
+{
+	float: left;
+}
+
 
 aside
 {
@@ -21,5 +28,20 @@ aside
     flex-direction: row;
 }
 
+#activites
+{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#left
+{
+	flex-direction: row;
+}
+
+#right
+{
+	flex-direction: row;
+}
 
 }
