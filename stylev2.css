@@ -544,12 +544,12 @@ nav a
 
 }
 
-section
+aside
 {
-    flex-direction: column;
+    flex-direction: row;
 }
 
-article, aside
+article
 {
     width: auto;
     margin-bottom: 15px;
