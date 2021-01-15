@@ -258,6 +258,7 @@ aside
 {
 	width: 30%;
     float: right;
+    margin-right: 80px;
 }
 
 #populaires
@@ -508,9 +509,9 @@ footer
     color: #000000;
 }}
 
-/* propriétés CSS*/
+/* Styles spécifiques pour les écrans de taille moyenne type tablette*/
 
-@media screen and (max-width: 1024px)
+@media screen and (min-width: 780px) and (max-width: 979px)
 
 {
 
@@ -540,3 +541,28 @@ nav li
 nav a
 {
     font-size: 1.1em;
+
+}
+
+section
+{
+    flex-direction: column;
+}
+
+article, aside
+{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.card img, .card2 img
+{
+    width: 110px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+
+}
