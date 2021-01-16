@@ -5,43 +5,42 @@
 {
 
 
-
 #bloc_page
 {
-    width: auto;
-    margin: auto;
+width: auto;
+margin: auto;
 }
 
 section
 {
-	float: left;
+float: left;
 }
 
 
 aside
 {
-    float: left;
+float: left;
 }
 
 #populaires
 {
-    flex-direction: row;
+flex-direction: row;
 }
 
 #activites
 {
-	flex-direction: row;
-	flex-wrap: wrap;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 #left
 {
-	flex-direction: row;
+flex-direction: row;
 }
 
 #right
 {
-	flex-direction: row;
+flex-direction: row;
 }
 
 }
